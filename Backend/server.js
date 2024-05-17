@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 // MONGOOSE
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DB_URI, {
+mongoose.connect("mongodb+srv://zoroetlufy:Pepito1%26@cluster0.xdapwkb.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
